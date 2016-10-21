@@ -1,6 +1,6 @@
 {
   "name": "capitals-coordinates",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "List of GPS coordinates of capital cities of world taken from tripmondo.com",
   "main": "index.js",
   "scripts": {
