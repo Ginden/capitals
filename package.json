@@ -1,6 +1,6 @@
 {
   "name": "capitals-coordinates",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "List of GPS coordinates of capital cities of world taken from tripmondo.com",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ginden/capitals/issues"
   },
-  "homepage": "https://github.com/ginden/capitals#readme"
+  "homepage": "https://github.com/ginden/capitals#readme",
+  "dependencies": {
+    "lodash": "0.1 - 4"
+  }
 }

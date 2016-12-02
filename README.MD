@@ -35,15 +35,21 @@ Possible values for `continent`: `['north-america', 'oceania', 'south-america', 
 
 ## findByCountryMatch(regexp)
 
-```
-const countries = require('capitals-coordinates').findByCountryMatch(/and/i); // array of GeoJSON with `properties`
+```javascript
+const countries = require('capitals-coordinates')
+    .findByCountryMatch(/and/i); // array of GeoJSON with `properties`
 ```
 
 ## findByContinent
 
+```javascript
+const africanCountries = require('capitals-coordinates')
+    .findByContinent('africa');
 ```
-const africanCountries = require('capitals-coordinates').findByContinent('africa');
-```
+
+## eu28
+
+Method `.eu28()` return list of EU countries (updated: December 2016).
 
 
 # Why did you make it?
